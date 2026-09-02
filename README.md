@@ -1,6 +1,6 @@
 # RetailFlow ETL
 
-A reproducible batch ETL project that generates retail transaction data, validates and transforms it with Python and Pandas, loads a PostgreSQL star schema, and runs analytical and data-quality SQL.
+RetailFlow ETL is a reproducible batch data pipeline built with Python, Pandas, PostgreSQL, and Docker. It extracts retail transactions from CSV, validates and separates rejected records, transforms accepted data into an analytics-ready star schema, and loads it transactionally into PostgreSQL. The project demonstrates ETL fundamentals, data-quality validation, dimensional modeling, CTEs, CTAS, joins, CASE expressions, and window functions such as RANK and LAG.
 
 ## Technologies and concepts
 
