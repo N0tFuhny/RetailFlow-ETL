@@ -110,7 +110,7 @@ Stop PostgreSQL without deleting its volume:
 docker compose down
 ```
 
-## SQL demonstrated
+## Analytics and SQL Techniques
 
 - CTEs create monthly revenue, product revenue, customer-value, and order-history datasets.
 - `LAG` calculates month-over-month revenue growth and time between customer orders.
