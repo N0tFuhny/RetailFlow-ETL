@@ -172,5 +172,3 @@ The complete run log is available at [evidence/etl_run.txt](evidence/etl_run.txt
 - The pipeline uses full-refresh loading rather than incremental loading.
 - It runs locally without orchestration or cloud deployment.
 - Database integration tests and CI are not yet included.
-
-Reasonable next steps would be incremental loading, database integration tests, schema migrations, structured logging, and CI with a temporary PostgreSQL service.
