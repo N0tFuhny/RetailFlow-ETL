@@ -1,5 +1,3 @@
--- Each query should return zero failures or a clearly interpretable count.
-
 -- Null checks in required fact columns.
 SELECT COUNT(*) AS null_required_fields
 FROM fact_sales

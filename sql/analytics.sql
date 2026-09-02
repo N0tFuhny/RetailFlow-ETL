@@ -78,4 +78,3 @@ GROUP BY 1, 2, 3, 4;
 
 CREATE INDEX idx_mart_monthly_product_sales_month
     ON mart_monthly_product_sales(month);
-
